@@ -1,0 +1,5 @@
+[10-Jun-2016 16:39:28 America/New_York] PHP Fatal error:  Cannot redeclare usersToJson() (previously declared in /home/firawxed/public_html/magazine/include/functions.php:186) in /home/firawxed/public_html/magazine/include/functions.php on line 202
+[10-Jun-2016 16:39:56 America/New_York] PHP Fatal error:  Cannot redeclare usersToJson() (previously declared in /home/firawxed/public_html/magazine/include/functions.php:186) in /home/firawxed/public_html/magazine/include/functions.php on line 202
+[10-Jun-2016 16:40:18 America/New_York] PHP Fatal error:  Cannot redeclare usersToJson() (previously declared in /home/firawxed/public_html/magazine/include/functions.php:186) in /home/firawxed/public_html/magazine/include/functions.php on line 202
+[10-Jun-2016 16:40:58 America/New_York] PHP Fatal error:  Cannot redeclare usersToJson() (previously declared in /home/firawxed/public_html/magazine/include/functions.php:186) in /home/firawxed/public_html/magazine/include/functions.php on line 202
+[10-Jun-2016 17:56:59 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/firawxed/public_html/magazine/ws/exec.php on line 17

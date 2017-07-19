@@ -1,0 +1,538 @@
+/*
+  $Id$
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2010 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.ui-widget {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+#bodyWrapper {
+}
+
+#bodyContent {
+}
+
+#header {
+  height:100px;
+}
+
+#storeLogo {
+  float: left;
+  margin-top: 0.6em;
+}
+
+#headerShortcuts {
+  float: right;
+  margin-top: 1.2em;
+}
+
+#columnLeft {
+  padding-top: 0.6em;
+}
+
+#columnRight {
+  padding-top: 0.6em;
+}
+
+.infoBoxContainer {
+margin-bottom: 1.000em;
+}
+
+.infoBoxHeading {
+  padding: 1.0em;
+  font-size: 110%;
+font-family: 'Milonga', cursive;
+}
+
+.infoBoxContents {
+  padding: 0.6em;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.contentContainer {
+  padding-bottom: 1.000em;
+  padding: 0.6em;
+  border: 1px solid #cccccc;
+ -webkit-border-radius: 2px;    
+    border-radius: 2px;
+ background:#fff;
+}
+.contentContainer a{
+  color: #000;
+}
+.contentContainer h2 {
+font-family: 'Milonga', cursive;
+  font-size: 160%;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0.6em;
+padding-top: 0.6em;
+}
+.infoBoxContents h4 {
+font-family: 'Milonga', cursive;
+  font-size: 100%;
+  font-weight: normal;
+  margin-bottom: 0;
+  padding-bottom: 0.6em;
+padding-top: 0.6em;
+}
+.infoBoxContents h4 a{
+color:#000;
+}
+.contentText, .contentText table {
+  padding: 0.6em 0 0.6em 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.productListTable {
+  padding: 0.6em;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.productListTable tr.alt td {
+  background-color: #ecf6fc;
+}
+
+.fieldKey {
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 1.5;
+  width: 20%;
+}
+
+.fieldValue {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+
+img {
+  border: 0;
+}
+
+table, p {
+  font-size: 100%;
+  line-height: 1.5;
+}
+#piGal {
+width: 25%; height: 25%;
+}
+#piGal ul {
+  list-style-type: none;
+}
+
+#piGal img {
+  -webkit-box-shadow: 0px 0px 1px #000;
+  -moz-box-shadow: 0px 0px 1px #000;
+}
+
+#piGal .outer {
+  margin-left: -30px;
+}
+
+.buttonSet {
+  clear: both;
+  margin-bottom:3em;
+}
+
+.buttonAction {
+  float: right;
+}
+.buttonSet a{
+ color: #fff;
+}
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 100%; }
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 100%; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 100%; color: #cc0033; }
+.productsNotifications { background: #f2fff7; }
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 100%; color: #ffa500; text-decoration: underline; }
+
+A {
+  color: #000000;
+  text-decoration: none;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+FORM {
+	display: inline;
+}
+
+TR.header {
+  background: #ffffff;
+}
+
+TR.headerNavigation {
+  background: #bbc3d3;
+}
+
+TD.headerNavigation {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight : bold;
+}
+
+A.headerNavigation { 
+  color: #FFFFFF; 
+}
+
+A.headerNavigation:hover {
+  color: #ffffff;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 80%;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 80%;
+  background: #00ff00;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+TR.footer {
+  background: #bbc3d3;
+}
+
+TD.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  background: #bbc3d3;
+  color: #ffffff;
+  font-weight: bold;
+}
+.footer p{
+  font-family: Verdana, Arial, sans-serif;
+    padding: 0.6em;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #000;
+}
+.infoBox {
+  background: #b6b7cb;
+}
+
+.infoBoxNotice {
+  background: #FF8E90;
+}
+
+.infoBoxNoticeContents {
+  background: #FFE6E6;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+TD.infoBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  background: #bbc3d3;
+  color: #ffffff;
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #ccc;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #ccc;
+}
+
+TABLE.productListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+  border-spacing: 1px;
+}
+
+.productListingHeader {
+  table-layout: fixed;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.productListingHeader A {
+  color: #FFFFFF;
+}
+
+.productListingData {
+  table-layout: fixed;
+}
+
+A.pageResults {
+  color: #0000FF;
+}
+
+A.pageResults:hover {
+  color: #0000FF;
+  background: #FFFF33;
+}
+
+TD.pageHeading, DIV.pageHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 180%;
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  color: #000000;
+}
+
+TD.main, P.main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+TD.accountCategory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 80%;
+  color: #aabbdd;
+}
+
+TD.tableHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+SPAN.newItemInCart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 100%;
+}
+
+SPAN.greetUser {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 80%;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 80%;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+SPAN.errorText {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #cccccc; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #EEEEEE; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 100%; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 100%; color: #000000; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 100%; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 100%; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 100%; background-color: #99ff00; }
+
+/* input requirement */
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 100%; color: #ff0000; }
+
+/* buttons */
+
+.tdbLink a { }
+
+.tdbLink button { }
+
+/* account link list */
+
+.accountLinkList {
+  list-style-type: none;
+  margin: 0.1em 0.1em 0.1em 1.000em;
+  padding: 0.6em;
+}
+
+.accountLinkListEntry {
+  float: left;
+  margin-right: 0.6em;
+}
+.list_box {
+  margin:  0.7em;
+  padding: 0.6em;
+text-align:center;
+background:#fff;
+  border: 1px solid #cccccc;
+ -webkit-border-radius: 2px;    
+    border-radius: 2px;
+width: 30%;
+float:left;
+}
+.sp_off {transform: rotate(45deg);
+-ms-transform: rotate(45deg); /* IE 9 */
+-webkit-transform: rotate(45deg); /* Safari and Chrome */
+-o-transform: rotate(45deg); /* Opera */
+-moz-transform: rotate(45deg); /* Firefox */
+font-family: Arial, Helvetica, Verdana, sans-serif;background:none ;font-size:20px;line-height:22px;font-weight:bold;color:#ff0000;padding-top:0.2em;float:right; margin:-0.2em -0.2em 1em 1em;
+*padding-right: 0.6em; /* IE 7 and below */
+}
+.image {
+
+/* This centers the image */
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+/* This adds the border */
+padding:8px;
+border:solid;
+border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+border-width: 1px 2px 2px 1px;
+background-color:white;
+}
+
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: white;
+padding: 5px;
+left: -1000px;
+border: 1px solid black;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 0;
+left: 0; /*position where enlarged image should offset horizontally */
+
+}
+
+.categorymenu{ margin:0px;width: 100%; font-family: 'Milonga', cursive; font-size: 110%;  font-weight: normal; normal; line-height: 2.8em; text-decoration: none;  overflow: hidden; }
+
+.categorymenu ul{  }
+
+.categorymenu ul li{ display: inline; }
+
+.categorymenu ul li a{ float: left; color: #fff; width: 100%;  }
+
+.categorymenu ul li a:visited{ color: #fff; text-decoration: none; }
+
+.categorymenu ul li a:hover { color: #000; background: #FFC521; text-decoration: none; }
+
+.categorymenu ul li a:active { color: #000; background: #FFC521; text-decoration: none;}
+
+.categorymenu ul li .current { color: #000; text-decoration: none; }
+
+.categorymenu ul li .count { color: #fff; text-decoration: none; }
+/*BOF - Zappo - Option Types v2 - Progress Bar */
+.progress{
+  width: 1px;
+  height: 12px;
+  color: grey;
+  font-size: 10px;
+ /* overflow: hidden; */
+  background-color: #bbc3d3;
+  padding-left: 5px;
+}
+.bar{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbc3d3;
+}
+/*EOF - Zappo - Option Types v2 - Progress Bar */
+
+/*BOF - Zappo - Option Types v2 - ONE LINE - Preload Option Type Images */
+div#ImagePreload { display: none; }

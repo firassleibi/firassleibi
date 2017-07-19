@@ -1,0 +1,5 @@
+[08-Jan-2017 06:23:15 America/New_York] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/firawxed/public_html/rida/index.php on line 37
+[08-Jan-2017 07:00:57 America/New_York] PHP Warning:  file_get_contents(/cap/1483876856.html): failed to open stream: No such file or directory in /home/firawxed/public_html/rida/index.php on line 49
+[08-Jan-2017 08:12:08 America/New_York] PHP Warning:  shell_exec() has been disabled for security reasons in /home/firawxed/public_html/rida/index.php on line 59
+[08-Jan-2017 08:12:08 America/New_York] PHP Warning:  exec() has been disabled for security reasons in /home/firawxed/public_html/rida/index.php on line 61
+[25-Jan-2017 15:05:23 America/New_York] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/imagick.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/imagick.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0

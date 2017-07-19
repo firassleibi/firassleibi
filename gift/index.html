@@ -1,0 +1,92 @@
+<html>
+	<head>
+    	<link rel="stylesheet" href="assets/animate.css">
+    	<style>
+			.gift{
+				float:left;
+				width:200px;
+				height:200px;
+				background:url(gift.png);
+				background-size:100% 100%;
+				cursor:pointer;
+				margin-left:20px;
+				text-align:right;
+			}
+			.code{
+				margin-right:10px;
+				color:#FF0000;
+				font-size:24px;
+				font-weight:bold;
+				margin-top:165px;
+			}
+		</style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body>
+    	<div class="gift box1 animated">
+        	<p class="code">
+            </p>
+        </div>
+        <div class="gift box2 animated">
+        	<p class="code">
+            </p>
+        </div>
+        <div class="gift box3 animated">
+         	<p class="code">
+            </p>
+        </div>
+        <div class="gift box4 animated">
+         	<p class="code">
+            </p>
+        </div>
+        <script>
+		
+		$('.box2').hide();
+		$('.box3').hide();
+		$('.box4').hide();
+		$(".box1").addClass("bounceInLeft");
+		setTimeout(function(){
+			 $('.box2').show();
+			 $(".box2").addClass("bounceInLeft");
+		 }, 500);
+		 setTimeout(function(){
+			 $('.box3').show();
+			 $(".box3").addClass("bounceInLeft");
+		 }, 1000);
+		 setTimeout(function(){
+			 $('.box4').show();
+			 $(".box4").addClass("bounceInLeft");
+		 }, 1500);
+		  setTimeout(function(){
+			 $(".gift").removeClass("bounceInLeft");
+		 }, 2000);
+		 
+		 
+			enabled=true;
+			$('.gift').mouseenter( function () {$(this).addClass("bounce");} ).mouseleave( function () {$(this).removeClass("bounce");} );
+			
+			$('.gift').click(function () {
+    // Now the div itself as an object is $(this)
+	
+	if(enabled){
+		
+		enabled=false;
+		var a=$(this);
+		var object;
+		$.post("getGift.php", function(data, status){
+		object=jQuery.parseJSON( data );
+		a.addClass("flip");
+        a.css("background", "url(gifts/"+object.path+")");
+		a.css("background-size", "100% 100%");
+		if(object.special==1){
+			a.find( 'p.code' ).html(Math.floor(Math.random() * 100000000000));
+		}
+    });
+	
+		
+	}
+});
+		</script>
+    </body>
+    
+</html>

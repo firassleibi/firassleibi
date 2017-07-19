@@ -1,0 +1,17 @@
+#/bin/sh
+
+echo "Installing Attracta SEO and Marketing Tools for cPanel/WHM"
+echo "----------------------------------------------------------"
+echo "Downloading latest plugin files"
+echo ""
+wget --no-check-certificate -Nq https://www.attracta.com/static/download/Attracta-SEO-cPanel-Stable.sea || curl -sLko Attracta-SEO-cPanel-Stable.sea https://www.attracta.com/static/download/Attracta-SEO-cPanel-Stable.sea
+echo ""
+
+if [ -f Attracta-SEO-cPanel-Stable.sea ]; then
+	sh Attracta-SEO-cPanel-Stable.sea
+	rm Attracta-SEO-cPanel-Stable.sea
+else
+	echo "Unable to download the latest plugin."
+	echo "Please contact Attracta Support"
+	echo "at support@attracta.com"
+fi

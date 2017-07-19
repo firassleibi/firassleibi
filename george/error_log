@@ -1,0 +1,97 @@
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(): Failed opening '../include/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/firawxed/php') in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Fatal error:  Call to undefined function login() in /home/firawxed/public_html/george/login.php on line 6
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  include(): Failed opening '../include/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/firawxed/php') in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:20:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/george/login.php:2) in /home/firawxed/public_html/george/login.php on line 10
+[28-Jun-2016 03:21:02 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:02 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:02 America/New_York] PHP Warning:  include(): Failed opening '../include/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/firawxed/php') in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:02 America/New_York] PHP Fatal error:  Call to undefined function login() in /home/firawxed/public_html/george/login.php on line 6
+[28-Jun-2016 03:21:29 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:29 America/New_York] PHP Warning:  include(../include/db.php): failed to open stream: No such file or directory in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:29 America/New_York] PHP Warning:  include(): Failed opening '../include/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/firawxed/php') in /home/firawxed/public_html/george/login.php on line 2
+[28-Jun-2016 03:21:29 America/New_York] PHP Fatal error:  Call to undefined function login() in /home/firawxed/public_html/george/login.php on line 6
+[28-Jun-2016 03:21:55 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:21:55 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:22:28 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:22:28 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:23:07 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:23:07 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:25:13 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'firawxed_reg'@'localhost' (using password: YES) in /home/firawxed/public_html/george/db.php on line 6
+[28-Jun-2016 03:25:13 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/firawxed/public_html/george/functions.php on line 160
+[28-Jun-2016 03:25:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:25:13 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:25:35 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:25:35 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:26:44 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:26:44 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:26:46 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:26:46 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:27:36 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:27:36 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:27:38 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:27:38 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:28:03 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:28:03 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:28:22 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:28:22 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:29:00 America/New_York] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'firawxed_reg'@'localhost' to database 'firawxeds_reg' in /home/firawxed/public_html/george/db.php on line 6
+[28-Jun-2016 03:29:00 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/firawxed/public_html/george/functions.php on line 160
+[28-Jun-2016 03:29:00 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:29:00 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:29:48 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:29:48 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:30:08 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 12
+[28-Jun-2016 03:30:08 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 13
+[28-Jun-2016 03:30:10 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 12
+[28-Jun-2016 03:30:10 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 13
+[28-Jun-2016 03:31:02 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:31:02 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:31:16 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:31:16 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:33:45 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:33:45 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:33:47 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:33:47 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:33:48 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:33:48 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 03:33:49 America/New_York] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/firawxed/public_html/george/functions.php on line 7
+[28-Jun-2016 03:33:49 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 8
+[28-Jun-2016 05:01:30 America/New_York] PHP Fatal error:  Call to undefined function getStudents() in /home/firawxed/public_html/george/getStudents.php on line 3
+[28-Jun-2016 05:03:42 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 17
+[28-Jun-2016 05:03:42 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 18
+[28-Jun-2016 05:03:43 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 17
+[28-Jun-2016 05:03:43 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 18
+[28-Jun-2016 05:06:28 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/firawxed/public_html/george/functions.php on line 23
+[28-Jun-2016 05:19:58 America/New_York] PHP Fatal error:  Call to undefined function getCourses() in /home/firawxed/public_html/george/getCourses.php on line 3
+[28-Jun-2016 05:24:27 America/New_York] PHP Fatal error:  Call to undefined function getInstructors() in /home/firawxed/public_html/george/getInstructors.php on line 3
+[28-Jun-2016 05:24:30 America/New_York] PHP Fatal error:  Call to undefined function getInstructors() in /home/firawxed/public_html/george/getInstructors.php on line 3
+[28-Jun-2016 05:27:29 America/New_York] PHP Fatal error:  Call to undefined function getEnrollments() in /home/firawxed/public_html/george/getEnrollments.php on line 3
+[28-Jun-2016 05:40:37 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/functions.php on line 80
+[28-Jun-2016 05:40:37 America/New_York] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/firawxed/public_html/george/functions.php on line 82
+[28-Jun-2016 05:41:32 America/New_York] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/firawxed/public_html/george/functions.php on line 82
+[28-Jun-2016 05:42:04 America/New_York] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/firawxed/public_html/george/functions.php on line 82
+[28-Jun-2016 05:43:13 America/New_York] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/firawxed/public_html/george/functions.php on line 82
+[28-Jun-2016 06:54:04 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 98
+[28-Jun-2016 06:54:04 America/New_York] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, null given in /home/firawxed/public_html/george/functions.php on line 99
+[13-Jul-2016 07:46:53 America/New_York] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/functions.php on line 100
+[13-Jul-2016 07:46:55 America/New_York] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/functions.php on line 100
+[13-Jul-2016 07:46:58 America/New_York] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/functions.php on line 100
+[13-Jul-2016 07:47:01 America/New_York] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/functions.php on line 100
+[13-Jul-2016 08:07:19 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 124
+[13-Jul-2016 08:07:24 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 124
+[13-Jul-2016 08:07:44 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/firawxed/public_html/george/functions.php on line 124
+[13-Jul-2016 08:11:56 America/New_York] PHP Warning:  Missing argument 1 for getStudents(), called in /home/firawxed/public_html/george/getStudents.php on line 6 and defined in /home/firawxed/public_html/george/functions.php on line 16
+[13-Jul-2016 08:35:16 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/firawxed/public_html/george/getStudent.php on line 5
+[13-Jul-2016 08:35:28 America/New_York] PHP Fatal error:  Cannot use [] for reading in /home/firawxed/public_html/george/getStudent.php on line 5
+[13-Jul-2016 08:35:37 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/getStudent.php on line 5
+[13-Jul-2016 09:49:57 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/getInstructor.php on line 5
+[13-Jul-2016 10:34:56 America/New_York] PHP Warning:  Missing argument 1 for getSections(), called in /home/firawxed/public_html/george/getSections.php on line 7 and defined in /home/firawxed/public_html/george/functions.php on line 35
+[13-Jul-2016 10:35:02 America/New_York] PHP Warning:  Missing argument 1 for getSections(), called in /home/firawxed/public_html/george/getSections.php on line 7 and defined in /home/firawxed/public_html/george/functions.php on line 35
+[13-Jul-2016 10:35:17 America/New_York] PHP Warning:  Missing argument 1 for getSections(), called in /home/firawxed/public_html/george/getSections.php on line 7 and defined in /home/firawxed/public_html/george/functions.php on line 35
+[14-Jul-2016 10:22:31 America/New_York] PHP Fatal error:  Cannot redeclare deleteCourse() (previously declared in /home/firawxed/public_html/george/functions.php:136) in /home/firawxed/public_html/george/functions.php on line 147
+[14-Jul-2016 10:22:38 America/New_York] PHP Fatal error:  Cannot redeclare deleteCourse() (previously declared in /home/firawxed/public_html/george/functions.php:136) in /home/firawxed/public_html/george/functions.php on line 147
+[14-Jul-2016 10:33:38 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/firawxed/public_html/george/getSection.php on line 5

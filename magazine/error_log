@@ -1,0 +1,95 @@
+[22-May-2016 15:02:58 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/firawxed/public_html/magazine/include/db.php on line 6
+[22-May-2016 15:02:58 America/New_York] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[22-May-2016 15:02:58 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[22-May-2016 15:02:58 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 31
+[22-May-2016 15:02:58 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/firawxed/public_html/magazine/include/functions.php on line 35
+[22-May-2016 15:04:17 America/New_York] PHP Fatal error:  Call to undefined function password_verify() in /home/firawxed/public_html/magazine/include/functions.php on line 13
+[22-May-2016 15:08:22 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'UnableToOpenBlob `test3/thumb0.jpg':  @ error/blob.c/OpenBlob/2588' in /home/firawxed/public_html/magazine/convert.php:109
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(109): Imagick->writeimage('test3/thumb0.jp...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 109
+[22-May-2016 15:12:40 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'UnableToOpenBlob `books/test3/thumb0.jpg':  @ error/blob.c/OpenBlob/2588' in /home/firawxed/public_html/magazine/convert.php:111
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(111): Imagick->writeimage('books/test3/thu...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 111
+[22-May-2016 15:13:27 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 100
+[22-May-2016 15:13:32 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'UnableToOpenBlob `books/test3/thumb0.jpg':  @ error/blob.c/OpenBlob/2588' in /home/firawxed/public_html/magazine/convert.php:110
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(110): Imagick->writeimage('books/test3/thu...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 110
+[22-May-2016 15:13:57 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 100
+[22-May-2016 15:14:01 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'UnableToOpenBlob `books/test3/thumb0.jpg':  @ error/blob.c/OpenBlob/2588' in /home/firawxed/public_html/magazine/convert.php:110
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(110): Imagick->writeimage('books/test3/thu...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 110
+[22-May-2016 15:14:19 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 100
+[22-May-2016 15:14:23 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'UnableToOpenBlob `books/test3/thumb0.jpg':  @ error/blob.c/OpenBlob/2588' in /home/firawxed/public_html/magazine/convert.php:110
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(110): Imagick->writeimage('books/test3/thu...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 110
+[22-May-2016 15:15:01 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:61) in /home/firawxed/public_html/magazine/convert.php on line 116
+[22-May-2016 15:16:36 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 13
+[22-May-2016 15:16:41 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:13) in /home/firawxed/public_html/magazine/convert.php on line 27
+[22-May-2016 15:18:44 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 14
+[22-May-2016 15:18:50 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:10) in /home/firawxed/public_html/magazine/convert.php on line 28
+[22-May-2016 15:21:41 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:10) in /home/firawxed/public_html/magazine/convert.php on line 31
+[22-May-2016 15:23:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:10) in /home/firawxed/public_html/magazine/convert.php on line 28
+[22-May-2016 15:25:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:10) in /home/firawxed/public_html/magazine/convert.php on line 28
+[22-May-2016 15:26:54 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/convert.php:10) in /home/firawxed/public_html/magazine/convert.php on line 28
+[22-May-2016 15:55:32 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/firawxed/public_html/magazine/include/db.php on line 6
+[22-May-2016 15:55:32 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[22-May-2016 15:55:32 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/firawxed/public_html/magazine/include/functions.php on line 35
+[24-May-2016 06:26:27 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:27:46 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:28:31 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:28:34 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:28:34 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:28:35 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:29:16 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:29:18 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:29:18 America/New_York] PHP Fatal error:  Call to undefined function phpinclude() in /home/firawxed/public_html/magazine/add_magazine.php on line 1
+[24-May-2016 06:33:27 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 99
+[24-May-2016 07:26:36 America/New_York] PHP Warning:  mkdir(): File exists in /home/firawxed/public_html/magazine/convert.php on line 99
+[25-May-2016 05:01:00 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/firawxed/public_html/magazine/include/db.php on line 6
+[25-May-2016 05:01:00 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 05:01:00 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/firawxed/public_html/magazine/include/functions.php on line 35
+[25-May-2016 05:04:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/firawxed/public_html/magazine/include/db.php on line 6
+[25-May-2016 05:04:47 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 05:04:47 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/firawxed/public_html/magazine/include/functions.php on line 35
+[25-May-2016 05:05:01 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/firawxed/public_html/magazine/include/db.php on line 6
+[25-May-2016 05:05:01 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/db.php:6) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 05:05:01 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/firawxed/public_html/magazine/include/functions.php on line 35
+[25-May-2016 05:05:05 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/phrases.php:1) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 05:05:30 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/phrases.php:1) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 05:05:31 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/firawxed/public_html/magazine/include/phrases.php:1) in /home/firawxed/public_html/magazine/include/functions.php on line 2
+[25-May-2016 07:01:01 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/firawxed/public_html/magazine/include/functions.php on line 161
+[25-May-2016 07:01:06 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/firawxed/public_html/magazine/include/functions.php on line 161
+[25-May-2016 07:01:07 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/firawxed/public_html/magazine/include/functions.php on line 161
+[25-May-2016 07:01:08 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/firawxed/public_html/magazine/include/functions.php on line 161
+[25-May-2016 07:01:09 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/firawxed/public_html/magazine/include/functions.php on line 161
+[28-May-2016 04:40:25 America/New_York] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'PostscriptDelegateFailed `books/Gulf Magazine 3.pdf':  @ error/pdf.c/ReadPDFImage/664' in /home/firawxed/public_html/magazine/convert.php:102
+Stack trace:
+#0 /home/firawxed/public_html/magazine/convert.php(102): Imagick->readimage('books/Gulf Maga...')
+#1 {main}
+  thrown in /home/firawxed/public_html/magazine/convert.php on line 102
+[28-May-2016 07:20:55 America/New_York] PHP Warning:  unlink(books/test6pdf): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 175
+[28-May-2016 07:20:55 America/New_York] PHP Warning:  unlink(books/0): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 176
+[28-May-2016 07:20:55 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/firawxed/public_html/magazine/include/functions.php on line 178
+[28-May-2016 07:21:36 America/New_York] PHP Warning:  unlink(books/0): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 176
+[28-May-2016 07:21:36 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/firawxed/public_html/magazine/include/functions.php on line 178
+[28-May-2016 07:21:56 America/New_York] PHP Warning:  unlink(books/test6.pdf): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 175
+[28-May-2016 07:21:56 America/New_York] PHP Warning:  unlink(books/0): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 176
+[28-May-2016 07:21:56 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/firawxed/public_html/magazine/include/functions.php on line 178
+[28-May-2016 07:22:24 America/New_York] PHP Warning:  unlink(books/test6.pdf): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 175
+[28-May-2016 07:22:24 America/New_York] PHP Warning:  unlink(books/0): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 176
+[28-May-2016 07:24:00 America/New_York] PHP Warning:  unlink(books/57495): No such file or directory in /home/firawxed/public_html/magazine/include/functions.php on line 176
+[29-May-2016 03:48:24 America/New_York] PHP Warning:  POST Content-Length of 86721492 bytes exceeds the limit of 33554432 bytes in Unknown on line 0
+[20-Jun-2016 10:18:18 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/firawxed/public_html/magazine/resize.php on line 1101
+[20-Jun-2016 10:18:19 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/firawxed/public_html/magazine/books/Magazine 10/0.jpg' is not a valid JPEG file in /home/firawxed/public_html/magazine/resize.php on line 1101
+[20-Jun-2016 10:18:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/firawxed/public_html/magazine/resize.php:1101) in /home/firawxed/public_html/magazine/resize.php on line 424

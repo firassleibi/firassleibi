@@ -1,0 +1,130 @@
+@import 'reset.css';
+@import 'text.css';
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  color: #333;	
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(center, ellipse farthest-corner, #CCCCCC 0%, #8F9196 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(center, ellipse farthest-corner, #CCCCCC 0%, #8F9196 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(center, ellipse farthest-corner, #CCCCCC 0%, #8F9196 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #CCCCCC), color-stop(1, #8F9196));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #CCCCCC 0%, #8F9196 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at center, #CCCCCC 0%, #8F9196 100%);
+}
+
+h1 {
+  padding: 10px 90px 10px 15px;
+  text-shadow: #fff 0 1px 0;
+font-family: 'Milonga', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+}
+
+
+
+small {
+  font-size: 11px;
+}
+
+/* `Misc Classes
+----------------------------------------------------------------------------------------------------*/
+
+.align_center {
+  text-align: center;
+}
+
+.align_right {
+  text-align: right;
+}
+
+/* `Data Table
+----------------------------------------------------------------------------------------------------*/
+
+.data,
+.data th,
+.data td {
+  border-style: solid;
+  border-color: #ddd;
+}
+
+.data {
+  border-width: 0 1px 1px;
+  width: 100%;
+}
+
+.data caption {
+  padding: 0 10px 5px;
+  text-transform: uppercase;
+}
+
+.data th,
+.data td {
+  border-top-width: 1px;
+  padding: 5px 10px;
+}
+
+.data th {
+  white-space: nowrap;
+}
+
+.data thead th {
+  background: #eee;
+  font-weight: bold;
+  text-shadow: #fff 0 1px 0;
+}
+
+.data tbody th {
+  width: 1px;
+}
+
+.data tr th:first-child {
+  text-align: right;
+}
+
+/* `Code
+----------------------------------------------------------------------------------------------------*/
+
+pre,
+code {
+  font-size: 12px;
+  font-family: Menlo, Courier, monospace;
+}
+
+pre,
+.notice {
+  background: #ffe;
+  border: 1px solid;
+  border-color: #eed #ccb #bba #ddc;
+  overflow: auto;
+  padding: 10px 0 10px 10px;
+}
+
+* html pre {
+  overflow: hidden;
+  width: 97%;
+}
+
+code {
+  background: #ff9;
+  padding: 0 2px;
+}

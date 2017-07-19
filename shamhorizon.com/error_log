@@ -1,0 +1,5 @@
+[10-Apr-2016 07:53:12 America/New_York] PHP Fatal error:  Call to a member function pdoGetRow() on a non-object in /home/firawxed/public_html/shamhorizon.com/include/function.php on line 9
+[10-Apr-2016 07:53:12 America/New_York] PHP Fatal error:  Call to a member function pdoGetRow() on a non-object in /home/firawxed/public_html/shamhorizon.com/include/function.php on line 9
+[10-Apr-2016 07:53:22 America/New_York] PHP Fatal error:  Call to a member function pdoGetRow() on a non-object in /home/firawxed/public_html/shamhorizon.com/include/function.php on line 9
+[10-Apr-2016 07:53:55 America/New_York] PHP Fatal error:  Class 'PdoWrapper' not found in /home/firawxed/public_html/shamhorizon.com/include/config.php on line 11
+[10-Apr-2016 07:53:55 America/New_York] PHP Fatal error:  Class 'PdoWrapper' not found in /home/firawxed/public_html/shamhorizon.com/include/config.php on line 11
